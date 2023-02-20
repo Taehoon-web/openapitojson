@@ -76,7 +76,9 @@ public class testGoodShop2 {
 		 String       resultCode             = header.get("resultCode").getAsString(); 		 	 
 		 System.out.println(resultCode);  // 00
 		 //---------------------
-		 		 
+		 	
+		 
+		 
 		 JsonObject  body                   =  getSafeRestaurantList.getAsJsonObject().get("body").getAsJsonObject();   
 		 JsonObject  items                  =  body.getAsJsonObject().get("items").getAsJsonObject();   
 		 JsonArray   item                   =  items.getAsJsonObject().get("item").getAsJsonArray();
