@@ -38,6 +38,7 @@ public class testGoodShop2 {
 			 rd = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
 		 }
 		 
+		 
 		 StringBuilder sb = new StringBuilder();
 		 String        line;
 		 while ((line = rd.readLine()) != null) {
